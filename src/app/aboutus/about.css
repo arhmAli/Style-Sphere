@@ -1,0 +1,48 @@
+.main{
+    background:#fff;
+    background-image: linear-gradient(rgba(87, 84, 84, 0.5), rgba(197, 156, 156, 0.5)),url('/image-bel-4.png');
+    background-size: cover;
+}
+.cntct{
+    background:#fff;
+    background-image: linear-gradient(rgba(87, 84, 84, 0.5), rgba(197, 156, 156, 0.5)),url('/image-bel-3.png');
+    background-size: cover;
+}
+/* about.css */
+.container {
+    position: relative;
+    height: 300px;
+    width: 20%;
+    background-color: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 5%;
+}
+.top-container{
+    width: 70%;
+    margin-left: 20%;
+}
+.text-review {
+    position: absolute;
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-right: 70%;
+    font-size: 1.5rem;
+    height: 100%;
+    width: 110%;
+    border-radius: 5%;
+    background: linear-gradient(rgba(87, 84, 84, 0.5), rgba(197, 156, 156, 0.5));
+    text-align: center;
+}
+.text-review-1{
+    padding-top: 5%;
+}
+.imgs {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    border-radius: 15%;
+    height: 100%;
+}
+

@@ -1,0 +1,28 @@
+.form-div{
+    /* margin-top: 5%; */
+    /* margin-left: 10%; */
+    padding-top: 2rem;
+    padding-left: 2rem;
+    width: 50vw;
+    height: 70vh;
+    background-color: white;
+    border-radius: 5%;
+}
+.img{
+    margin-top: 3rem;
+    margin-left: 68%;
+}
+.img-2{
+    margin-top:-18%;
+    margin-left: 0%;
+}
+.links{
+    position: absolute;
+    font-size: 0.8rem;
+    margin-top: 8%;
+    margin-left: 55%;
+}
+.img-top{
+    margin-top: 8%;   
+    margin-left:26%;
+}
