@@ -13,7 +13,7 @@ const Page=({searchParams})=>{
     const router=useRouter()
     const handleUpdate=async()=>{
         try{
-            const res=await axios.post("https://clothbackend-o7o8ubyma-arhmalis-projects.vercel.app/userdata",{
+            const res=await axios.post("https://backendcloth-1nc1xbgw0-arhmalis-projects.vercel.app/userdata",{
                 city:searchParams.city,
                 name:searchParams.name,
                 height:searchParams.height,
