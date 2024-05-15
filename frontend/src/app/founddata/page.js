@@ -41,7 +41,7 @@ const Page=({searchParams})=>{
     const handleClick=async(e)=>{
         e.preventDefault()
         try{
-            const res=await axios.post("https://clothbackend-o7o8ubyma-arhmalis-projects.vercel.app/contactdata",{
+            const res=await axios.post("https://backendcloth-1nc1xbgw0-arhmalis-projects.vercel.app/contactdata",{
                 city:searchParams.city,
                 email:email,
                 phonenumber:phone
