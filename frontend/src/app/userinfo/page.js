@@ -35,7 +35,7 @@ const Page=({searchParams})=>{
     let cssClass=`main-div ${dbCity}`;
     const fetchData=async()=>{
         try{
-        const res=await axios.get(`https://backendcloth-1nc1xbgw0-arhmalis-projects.vercel.app/persondata/${dbCity}`)
+        const res=await axios.get("https://backendcloth-1nc1xbgw0-arhmalis-projects.vercel.app/persondata/fsd")
         console.log(res.data)
         setPeople(res.data)
         }
