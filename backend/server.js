@@ -11,8 +11,13 @@ const port = 3000;
 //   optionsSuccessStatus: 200 // Some legacy browsers (IE11, various SmartTVs) choke on 204
 // };
 
-app.use(cors());
+//app.use(cors());
+const corsOptions = {
+  origin: 'https://style-sphere-omega.vercel.app', // Allow your frontend domain
+  optionsSuccessStatus: 200 // Some legacy browsers (IE11, various SmartTVs) choke on 204
+};
 
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
 require('dotenv').config();
 // Connect to the default MongoDB URI
