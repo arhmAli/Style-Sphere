@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const cors = require('cors');
+// const cors = require('cors');
 const app = express();
 const {Person,schema,Contact,schemaContact} = require('./model');
 const port = 3000;
@@ -11,13 +11,13 @@ const port = 3000;
 //   optionsSuccessStatus: 200 // Some legacy browsers (IE11, various SmartTVs) choke on 204
 // };
 
-//app.use(cors());
-const corsOptions = {
-  origin: 'https://style-sphere-omega.vercel.app', // Allow your frontend domain
-  optionsSuccessStatus: 200 // Some legacy browsers (IE11, various SmartTVs) choke on 204
-};
+// //app.use(cors());
+// const corsOptions = {
+//   origin: 'https://style-sphere-omega.vercel.app', // Allow your frontend domain
+//   optionsSuccessStatus: 200 // Some legacy browsers (IE11, various SmartTVs) choke on 204
+// };
 
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
 app.use(bodyParser.json());
 require('dotenv').config();
 // Connect to the default MongoDB URI
